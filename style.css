@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -48,6 +52,7 @@ nav ul li a {
     background-color: red;
     background-image:url(img/01.png);
     background-repeat: no-repeat;
+    background-position: center;
 
 }
 
@@ -55,17 +60,35 @@ nav ul li a {
     background-color:green ;
     background-image: url(img/02.png);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #scarpa3 {
     background-color: yellow;
     background-image: url(img/03.png);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .text-1 {
-    background-color: yellow;
+    position: absolute;
+    color: yellow;
     top: 80%;
     left: 50%;
     transform: translate(-50% , 0);
 }
+
+.text-2 {
+    position: absolute;
+    color: yellow;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50% , 0%);
+}
+
+.text-3 {
+    position: absolute;
+    color: green;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50% , 0%);
